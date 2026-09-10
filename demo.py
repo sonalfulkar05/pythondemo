@@ -18,6 +18,13 @@
 
 
 
+role=input("enter the role:")
+age=int(input("enter your age:"))
+
+is_eligible= role=="student" and age<21
+print("the person is eligible:",is_eligible)
+
+
 
 
 
